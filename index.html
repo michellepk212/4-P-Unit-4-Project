@@ -10,7 +10,7 @@ Select ONE Additional Feature to Add
 [ no ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Use Google Font or Uploaded Font
-[ no ] Feature 5 - Change the Cursor
+[ yes ] Feature 5 - Change the Cursor
 -->
 
 <!DOCTYPE html>
@@ -20,24 +20,49 @@ Select ONE Additional Feature to Add
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
   <style>
-
+   body {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='49' height='59' viewport='0 0 100 100' style='fill:black;font-size:29px;'><text y='50%'>🍀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+   }
+   
+   h1 {
+      color:rgba(182, 25, 56, 0.671)
+    }
+    #lov {
+      font-size: 30px;
+      font-family:cursive;
+      font-weight:16px
+    }
+    #lov {
+      background-color:cornflowerblue
+    }
+    .hie {
+      background-color:cadetblue
+    }
+    .hie {
+      font-size:15px;
+      font-family:verdana;
+      font-weight:16px
+    }
+    h3 {
+      color:rgb(158, 21, 199)
+    }
   </style>
 </head>
-<body>
+<body style="background-image:url(https://wallpapercave.com/wp/wp8062771.jpg)">
 
-  <h1>My Unofficial Local Guide to [~~~]</h1>
+  <h1 id="lov">My Unofficial Guide to Navigating a Fantasy World</h1>
   
-  <h3>Content Element 1</h3>
+  <h3 class="hie">The Creatures</h3>
   <hr>
   <p>About Content Element #1</p>
   <br><br>
 
-  <h3>Content Element 2</h3>
+  <h3 class="hie">The Very-Great Kingdom</h3>
   <hr>
   <p>About Content Element #2</p>
   <br><br>
 
-  <h3>Content Element 3</h3>
+  <h3 class="hie">Your Quest</h3>
   <hr>
   <p>About Content Element #3</p>
   <br><br>
