@@ -7,7 +7,7 @@ Requirements
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Fill Text with Image Background 
-[ no ] Feature 2 - Change the <li> markers
+[ yes ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Use Google Font or Uploaded Font
 [ yes ] Feature 5 - Change the Cursor
@@ -41,10 +41,25 @@ Select ONE Additional Feature to Add
     .hie {
       font-size:15px;
       font-family:verdana;
-      font-weight:16px
+      font-weight:16px;
     }
     h3 {
       color:rgb(158, 21, 199)
+    }
+    .mow {
+      font-size:16px;
+      font-family:tahoma;
+    }
+    .mow {
+      background-color:darkseagreen
+    }
+
+    .mow {
+      color:rgb(19, 125, 139)
+    }
+    li::marker {
+      content: "🗡️";
+      font-size:1em;
     }
   </style>
 </head>
@@ -54,17 +69,32 @@ Select ONE Additional Feature to Add
   
   <h3 class="hie">The Creatures</h3>
   <hr>
-  <p>About Content Element #1</p>
-  <br><br>
+  <p class="mow">Dragons</p>
+  <img src="https://a5e.tools/sites/default/files/monsters/dragon%2C%20bronze%20-%20Gui%20Sommer_0.png"
+  width="150">
+  <ul class="mow">
+    <li>Very large creatures</li>
+    <li>Stay clear of its path if it flys overhead</li>
+    <li>Do not attack the creatures even if they provoke you</li>
+  </ul>
+
+  <p class="mow">Elves</p>
+  <ul class="mow">
+    <li>Are in close relations to humans</li>
+    <li>Remain very secluded</li>
+    <li>Will not provoke unless threatened</li>
+  </ul>
+
+  <p class="mow"></p>
 
   <h3 class="hie">The Very-Great Kingdom</h3>
   <hr>
-  <p>About Content Element #2</p>
+  <p class="mow">About Content Element #2</p>
   <br><br>
 
   <h3 class="hie">Your Quest</h3>
   <hr>
-  <p>About Content Element #3</p>
+  <p class="mow">About Content Element #3</p>
   <br><br>
 
 </body>
